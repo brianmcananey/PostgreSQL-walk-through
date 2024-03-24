@@ -5,6 +5,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
+# using an old database for this walkthrough, some of the input is not pascal standardised
+
 # executing the instructions from the "chinook" database
 db = create_engine("postgresql:///chinook")
 base = declarative_base()
